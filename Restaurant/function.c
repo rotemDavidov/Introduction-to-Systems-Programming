@@ -57,7 +57,7 @@ void scanTHEdishes(manager* M,FILE* in)
 				M->head = temp; // now temp is the head of the list
 			}
 			M->size++;
-			//flag2--; // we count dish as a error potanshial and now after we see everythings is ok
+			//another option for solving :flag2--; // we count dish as a error potanshial and now after we see everythings is ok
 			// we dec the dish
 			//outside the loop : if (flag2 > 0)
 		//printf("the scan of the dishes didnt succsed");
